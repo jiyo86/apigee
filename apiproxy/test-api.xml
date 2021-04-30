@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="test-api">
+    <Basepaths>/test-api</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1619758527543</CreatedAt>
+    <CreatedBy>jiyomathew.in@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>test-api</DisplayName>
+    <HostedManifestVersion>SHA-512:be667c1625d200c67210d37b4bc3ebe44ece924e455e366c6a9177dd7c66153e75ac59d228f1388cc28bf3995dd3cc9f837f958cc7dcdfc83a0fe91b151cef6d:ap-northeast-1</HostedManifestVersion>
+    <LastModifiedAt>1619758527543</LastModifiedAt>
+    <LastModifiedBy>jiyomathew.in@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:48d784ce5f376c9ccae4b7bca3ea0be4f78bae5845cee14f0e43ca5b4b36cb57d9a85523377af9a058d36c30aeff8b128a37454aebccd4a11d22607129c15134:ap-northeast-1</ManifestVersion>
+    <Policies>
+        <Policy>add-cors</Policy>
+        <Policy>remove-query-param-apikey</Policy>
+        <Policy>verify-api-key</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>hosted://app.yaml</Resource>
+        <Resource>hosted://index.js</Resource>
+        <Resource>hosted://package.json</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

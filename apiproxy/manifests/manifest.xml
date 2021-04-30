@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="add-cors" version="SHA-512:52bbfc2e8b7fb33a67ceed04e5902c4c9cec39751102f5eb238416d948a69a9fc50d5f9e2af686e8ea54c21fb27e190c661012bc7cc76d59b33985855fcb4e32"/>
+        <VersionInfo resourceName="remove-query-param-apikey" version="SHA-512:bebd2e662024f852231175e62f9aa7367aec21aa9ab4541f19e85d7d0f5d8dabe69cd2aea0ef00676549e0e7867693a907b8f661a0a7a4773587fd135a3b5f09"/>
+        <VersionInfo resourceName="verify-api-key" version="SHA-512:6595defb9a0b6d7fce111a9fe959f5e8a7aa03ffb301373c4c4e20e814648b42d5858631e95e4a8d698b5fe2139390c252e9011d9f1be8c3a35de73c1c269f97"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:3a7684224c1761aa320e7586ff1a5eed98fea82075005684562b28ac8d17afbabf938c3fc39b9b889b4be12d8976194c7166161e7d33cd303d38d37b163ceb29"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="hosted://app.yaml" version="SHA-512:1d45d91f576f9845b1fbd64bac13b1591da466b268eabb413190007c425cb486c43a281154babb8cd9994bd32ae5a9a1efb6b90bc73e2e7a94ad27b8fd2f5245"/>
+        <VersionInfo resourceName="hosted://index.js" version="SHA-512:75c62ccec09293172e5867339a13f55ef6fe1940ddfb2789385d32db3ed27f4c2727adc6380e0fcfbaf883e332de3dd53841ecf9511181ab32c0ab2c330ab690"/>
+        <VersionInfo resourceName="hosted://package.json" version="SHA-512:d0266e8ec66d4343d3146430e67168bb272aae27167beed88eab62380226550e816ccc5bf15ea7e68601f1de9556489ac149e6f9ea6ad36acbf1217401f5c419"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:20918927ceea986d1745ace8a62f6e3c13e3ffef418f7c82d2739d1134b51632132d0e2b522a40fb0077fe68d408dae77a4718ba261b7dc7bfeae409abcbb7ff"/>
+    </TargetEndpoints>
+</Manifest>
